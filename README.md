@@ -28,9 +28,6 @@ Here’s an example of the login page code:
 
 ## How to Use
 
-1. Copy the HTML code from above.
-2. Use it in your web project or as a reference for your admin login page.
-3. Customize CSS styles and backend handling as desired.
 
 ## License
 
