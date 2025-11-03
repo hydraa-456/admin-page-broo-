@@ -1,4 +1,4 @@
-# Classic Admin Login Page
+# Admin Login Page
 
 A sample code project featuring a classic admin dashboard interface and a secure username/password login form.
 
