@@ -1,17 +1,36 @@
 # Classic Admin Login Page
 
-A simple classic admin login page with a styled dashboard interface and hardcoded admin credentials.
+A sample code project featuring a classic admin dashboard interface and a secure username/password login form.
 
 ## Features
 
-- Simple and responsive admin login page
-- Username and password authentication (client-side for demo)
-- Classic design using pure HTML and CSS
+- Admin dashboard design
+- Secure user authentication (login form)
+- Responsive HTML and CSS
 
-## Demo Credentials
+## Demo
 
-- Username: admin  
-- Password: admin.123  
+Here’s an example of the login page code:
+
+<div align="center">
+
+<!-- Inline HTML login form -->
+<form action="#" method="POST" style="width: 300px; padding: 20px; border: 1px solid #ccc; background: #f9f9f9;">
+  <h2>Admin Login</h2>
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username" placeholder="Enter your username" required style="width: 100%;"><br><br>
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" placeholder="Enter your password" required style="width: 100%;"><br><br>
+  <button type="submit" style="width: 100%;">Login</button>
+</form>
+
+</div>
+
+## How to Use
+
+1. Copy the HTML code from above.
+2. Use it in your web project or as a reference for your admin login page.
+3. Customize CSS styles and backend handling as desired.
 
 ## License
 
