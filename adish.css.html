@@ -1,0 +1,41 @@
+<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <title>My Website</title> <style> body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; } header { background-color: #333; color: #fff; padding: 1rem 2rem; text-align: center; } nav a { color: white; margin: 0 10px; text-decoration: none; } main { padding: 2rem; } footer { background-color: #333; color: white; text-align: center; padding: 1rem; position: fixed; bottom: 0; width: 100%; } </style> </head> <body> <header> <h1>Welcome to My Website</h1> <nav> <a href="#"></a>login<a href="#">About</a>this is 9 years old webpage you can safely login data<a href="#">Contact</a>adishhhh9@gmail.com</nav> </header> <main> <h2>login page</h2>
+  
+   <DOCTYPE html> 
+   html>
+<head>
+<title>Login Page</title>
+<script>
+  // Dummy user credentials for demonstration
+  const validUser = "admin";
+  const validPass = "admin1234";
+
+  function validateLogin() {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+
+    if(username === validUser && password === validPass) {
+      alert('Login successful!');
+
+      // Simulate "sending password to your phone"
+      // Actual implementation requires backend + SMS API
+      alert('Password sent to your phone: ' + password);
+
+      // Redirect to admin page
+      window.location.href = 'admin.html';
+    } else {
+      alert('Invalid credentials');
+    }
+  }
+</script>
+</head>
+<body>
+  <h2>Login</h2>
+  <label>Username:</label><br>
+  <input type="text" id="username" /><br><br>
+
+  <label>Password:</label><br>
+  <input type="password" id="password" /><br><br>
+
+  <button onclick="validateLogin()">Login</button>
+</body>
+</html>
